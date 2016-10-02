@@ -32,19 +32,23 @@ $scope.whiteWine = {
 		other: "Cream Sauces, Mexican, Vietnamese"
 	},
 	flavors: {
+		// Chardonnay
 		loRipeChar: "Green Plum, Green Apple, Pear",
 		ripeChar: "Lemon, Peach, Melon",
 		hiRipe:Char "Pineapple, Fig, Banana, Mango",
 		oakedChar: "added Cream or Butter",
+		// Sauvignon Blanc
 		loRipeSauviBlanc: "Lime, Gooseberry",
 		ripeSauviBlanc: "Green Apple, Citrus, Passion Fruit",
 		hiRipeSauviBlanc: "Grapefruit, Peach, Melon",
 		oakedSauviBlanc: "Vanilla, Smoke",
 	},
 	neighbors: {
+		// Chardonnay
 		pinotGrisChar: "Like unripe Charddonay",
 		semillionChar: "Lighter with more lemon",
 		viognierChar: "More Vanilla, flowers or Perfume",
+		// Sauvignon Blanc
 		vermentinoSauviBlanc: "More floral and citrus",
 		grunerVeltinerSauviBlanc: "More lime, lemon, and grapefruit",
 		verdejoSauviBlanc: "More texture and peach"
