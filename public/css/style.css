@@ -6,7 +6,7 @@ BODY STYLING
   margin-bottom:4em;
 }
 body {
-  background-image: url('wine.jpg');
+  background-image: url('/img/wine.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
