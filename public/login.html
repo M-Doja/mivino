@@ -3,7 +3,8 @@
     <div ng-show="!reg">
         <h2>Login</h2>
         <form ng-submit="login()">
-          <h3>woo@woo.com</h3>
+          <!-- <h3>woo@woo.com</h3> -->
+          <img src="http://www.thewallworks.com/images/products/wine-glass.JPG" width="60" alt="" />
             <p ng-show="error" class="text-danger">{{ error }}</p>
             <input type="email" placeholder="Email" class="form-control" ng-model="details.email" required><br>
             <input type="password" placeholder="Password" class="form-control" ng-model="details.password" required><br>
