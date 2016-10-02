@@ -69,23 +69,18 @@ form {
   margin: 0 auto;
   text-align: center
 }
+.wineForm{
+  padding-bottom: 10px;
+}
+img {
+  width:150px;
+  margin:1em;
+  border-radius: 1em;
+}
+
 #dashboard {
   border: 5px solid #000;
   border-radius: 1em;
   background: rgba(255, 255, 255, 0.5);
   margin: 0 15px;
 }
-/*.flex-container {
-    display: -webkit-flex;
-    display: flex;
-    width: 400px;
-    height: 250px;
-    background-color: lightgrey;
-}
-
-.flex-item {
-    background-color: cornflowerblue;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-}*/
