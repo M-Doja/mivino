@@ -1,0 +1,65 @@
+/*
+BODY STYLING
+*/
+.body {
+  background: #56d;
+  margin-bottom:4em;
+}
+
+/*
+SIDE NAV STYLING
+*/
+.navBtn {
+  margin: 15px auto;
+}
+
+/*
+JUMBOTRON
+*/
+ul li {
+  list-style: none;
+  display: inline-block;
+}
+.jumbotron {
+  margin-top: 4em;
+  border-radius: .33em;
+}
+.dashBtn {
+  width: 9em;
+}
+
+/*
+THE SIX WINE DIVS
+*/
+.wine {
+  border: 2px solid #000;
+  margin:5px auto;
+}
+
+/*
+DASHBOARD STYLING
+*/
+#wineDisplay {
+  padding-top: 2em;
+}
+.dashwrap {
+  margin: 0 auto;
+}
+form {
+  margin: 0 auto;
+  text-align: center
+}
+/*.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 400px;
+    height: 250px;
+    background-color: lightgrey;
+}
+
+.flex-item {
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}*/
