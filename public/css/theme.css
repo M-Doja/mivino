@@ -13,7 +13,7 @@
 .w3-theme-dark {color:#fff !important; background-color:#000000 !important}
 .w3-theme-action {color:#fff !important; background-color:#000000 !important}
 
-.w3-theme {color:#fff !important; background-color:#000000 !important}
+.w3-theme {color:#fff !important; background-color:rgba(0, 0, 0, 0.5) !important}
 .w3-text-theme {color:#000000 !important}
 .w3-border-theme {border-color:#000000 !important}
 

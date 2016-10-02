@@ -1,4 +1,4 @@
-<div  data-spy="scroll" data-target=".navbar" data-offset="50" >
+<div  id="wrapper"data-spy="scroll" data-target=".navbar" data-offset="50" >
 <section id="home" ng-controller='HomeCtrl as vm'>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
 	<script type="text/javascript">
@@ -23,7 +23,7 @@
 
           <ul class='navbar'>
           	<li><a class="btn btn-default dashBtn" ng-click="logout()" >Logout</a></li>
-            <li><a class="btn btn-default dashBtn hideDash" >Home</a></li>
+            <li><a class="btn btn-default dashBtn hideDash" >Wines</a></li>
 						<li><a class="btn btn-default dashBtn hideWine" >Dash</a></li>
 						<li><a class="btn btn-default dashBtn" data-toggle="collapse" data-target="#settings">Settings</a></li>
           </ul>
@@ -51,27 +51,78 @@
   	<div class="row">
   		<div class="col-md-12">
   			<div class="row">
+
   				<div class="col-md-6 wine">
-            <h2>Red Wines</h2>
+            <a href="javascript:void(0)" class=" w3-text-theme" onclick="document.getElementById('id01').style.display='block'"><h2>{{redWine.title}}</h2></a>
+
+						<div id="id01" class="w3-modal">
+					    <div class="w3-modal-content">
+					      <div class="w3-container">
+					        <span onclick="document.getElementById('id01').style.display='none'" class="w3-closebtn">&times;</span>
+					        <p>Some red wine text. Some text. Some text.</p>
+					      </div>
+					    </div>
+					  </div>
   				</div>
+
   				<div class="col-md-6 wine">
-            <h2>White Wines</h2>
+            <a href="javascript:void(0)" class=" w3-text-theme" onclick="document.getElementById('id02').style.display='block'"><h2>{{whiteWine.title}}</h2></a>
+						<div id="id02" class="w3-modal">
+					    <div class="w3-modal-content">
+					      <div class="w3-container">
+					        <span onclick="document.getElementById('id02').style.display='none'" class="w3-closebtn">&times;</span>
+					        <p>Some white wine text. Some text. Some text.</p>
+					      </div>
+					    </div>
+					  </div>
   				</div>
   			</div>
   			<div class="row">
   				<div class="col-md-6 wine">
-            <h2>Rose Wine</h2>
+            <a href="javascript:void(0)" class=" w3-text-theme" onclick="document.getElementById('id03').style.display='block'"><h2>{{roseWine.title}}</h2></a>
+						<div id="id03" class="w3-modal">
+					    <div class="w3-modal-content">
+					      <div class="w3-container">
+					        <span onclick="document.getElementById('id03').style.display='none'" class="w3-closebtn">&times;</span>
+					        <p>Some rose wine text. Some text. Some text.</p>
+					      </div>
+					    </div>
+					  </div>
   				</div>
   				<div class="col-md-6 wine">
-            <h2>Champagne</h2>
+            <a href="javascript:void(0)" class=" w3-text-theme" onclick="document.getElementById('id04').style.display='block'"><h2>{{champagne.title}}</h2></a>
+						<div id="id04" class="w3-modal">
+					    <div class="w3-modal-content">
+					      <div class="w3-container">
+					        <span onclick="document.getElementById('id04').style.display='none'" class="w3-closebtn">&times;</span>
+					        <p>Some champagne text. Some text. Some text.</p>
+					      </div>
+					    </div>
+					  </div>
   				</div>
   			</div>
   			<div class="row">
   				<div class="col-md-6 wine">
-            <h2>Ports</h2>
+            <a href="javascript:void(0)" class=" w3-text-theme" onclick="document.getElementById('id05').style.display='block'"><h2>{{ports.title}}</h2></a>
+						<div id="id05" class="w3-modal">
+					    <div class="w3-modal-content">
+					      <div class="w3-container">
+					        <span onclick="document.getElementById('id05').style.display='none'" class="w3-closebtn">&times;</span>
+					        <p>Some port text. Some text. Some text.</p>
+					      </div>
+					    </div>
+					  </div>
   				</div>
   				<div class="col-md-6 wine">
-            <h2>Sangria</h2>
+            <a href="javascript:void(0)" class=" w3-text-theme" onclick="document.getElementById('id06').style.display='block'"><h2>{{sangria.title}}</h2></a>
+						<div id="id06" class="w3-modal">
+					    <div class="w3-modal-content">
+					      <div class="w3-container">
+					        <span onclick="document.getElementById('id06').style.display='none'" class="w3-closebtn">&times;</span>
+					        <p>Some sangria text. Some text. Some text.</p>
+					      </div>
+					    </div>
+					  </div>
   				</div>
   			</div>
   		</div>

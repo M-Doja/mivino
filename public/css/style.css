@@ -2,10 +2,25 @@
 BODY STYLING
 */
 .body {
-  background: #56d;
+  /*background: #56d;*/
   margin-bottom:4em;
 }
+body {
+  background-image: url('http://blueslip.com/wp-content/uploads/2016/06/red-wine-glass-wine-bottle.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
 
+.btn-blk {
+  background: #000;
+  color:#fff;
+  font-weight: 600;
+}
+.btn:hover, .btn:focus {
+  color: red
+}
 /*
 SIDE NAV STYLING
 */
@@ -23,6 +38,7 @@ ul li {
 .jumbotron {
   margin-top: 4em;
   border-radius: .33em;
+  background: rgba(255, 255, 255, 0.7);
 }
 .dashBtn {
   width: 9em;
@@ -34,6 +50,10 @@ THE SIX WINE DIVS
 .wine {
   border: 2px solid #000;
   margin:5px auto;
+  background:#fff;
+}
+#wineInfo {
+  margin-bottom: 1.5em;
 }
 
 /*
@@ -48,6 +68,12 @@ DASHBOARD STYLING
 form {
   margin: 0 auto;
   text-align: center
+}
+#dashboard {
+  border: 5px solid #000;
+  border-radius: 1em;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 0 15px;
 }
 /*.flex-container {
     display: -webkit-flex;

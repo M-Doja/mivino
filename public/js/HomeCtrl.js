@@ -6,4 +6,5 @@ $scope.logout = function() {
 	document.location.href = '#/login.html';
 }
 
+
 });
