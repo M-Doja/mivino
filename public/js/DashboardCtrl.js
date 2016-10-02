@@ -35,7 +35,7 @@ $scope.whiteWine = {
 		// Chardonnay
 		loRipeChar: "Green Plum, Green Apple, Pear",
 		ripeChar: "Lemon, Peach, Melon",
-		hiRipe:Char "Pineapple, Fig, Banana, Mango",
+		hiRipeChar: "Pineapple, Fig, Banana, Mango",
 		oakedChar: "added Cream or Butter",
 		// Sauvignon Blanc
 		loRipeSauviBlanc: "Lime, Gooseberry",
