@@ -61,6 +61,7 @@ DASHBOARD STYLING
 */
 #wineDisplay {
   padding-top: 2em;
+  padding-bottom: 2em;
 }
 .dashwrap {
   margin: 0 auto;
@@ -72,8 +73,8 @@ form {
 .wineForm{
   padding-bottom: 10px;
 }
-img {
-  width:150px;
+#tableBanner {
+  width:150px !important;
   margin:1em;
   border-radius: 1em;
 }

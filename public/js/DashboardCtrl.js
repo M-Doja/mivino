@@ -1,6 +1,18 @@
 var app = angular.module('MiVino');
 
-app.controller('DashboardCtrl', function($scope, userReference, wineReference){
+app.controller('DashboardCtrl', function($scope, userReference, wineReference, $firebase){
+	$scope.addresses = [
+        {'state': 'AL'},
+        {'state': 'CA'},
+        {'state': 'FL'}
+    ];
+
+    $scope.lov_state = [
+        {'lookupCode': 'AL', 'description': 'Alabama'},
+        {'lookupCode': 'FL', 'description': 'Florida'},
+        {'lookupCode': 'CA', 'description': 'California'},
+        {'lookupCode': 'DE', 'description': 'Delaware'}
+    ];
 
 	$scope.profile = userReference;
 
@@ -13,6 +25,12 @@ app.controller('DashboardCtrl', function($scope, userReference, wineReference){
 	$scope.removeWine = function(wine){
 		$scope.wines.$remove(wine);
 	}
+
+	$scope.getWines = function(userId){
+		var firebaseUrl = 'https://mivino.firebaseio.com/';
+		return $firebase(new Firebase(firebaseUrl + 'users/' + userId + '/wines')).$asArray();
+	}
+	$scope.getWines();
 
 	$scope.update = function(){
 		$scope.profile.$save();
